@@ -1,7 +1,7 @@
 <template>
   <div>
-    <header class="header">
-      <div class="header__wrapper container">
+    <header class="header container">
+      <div class="header__wrapper">
         <router-link class="header__info" :to="{name: 'main'}">Каталог</router-link>
 
         <a class="header__logo" href="#">
@@ -17,8 +17,8 @@
 
     <router-view />
 
-    <footer class="footer">
-      <div class="footer__wrapper container">
+    <footer class="footer container">
+      <div class="footer__wrapper">
         <ul class="footer__links">
           <li>
             <a class="footer__link" href="#">
